@@ -1,15 +1,12 @@
 
+import MovieContainer from "./components/MovieContainer.jsx";
 
-const API_KEY = "b2043258";
-const API_URL = "http://www.omdbapi.com/?apikey=[yourkey]&";
-
-//https://www.omdbapi.com/?t=terminator&apikey=b2043258
-
-function App() {
+const App = () => {
 
   return (
     <>
-      <h1>ZZ</h1>
+        <h1>Poz</h1>
+        <MovieContainer/>
     </>
   )
 }
