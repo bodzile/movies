@@ -1,5 +1,5 @@
 
-import MovieContainer from "./components/MovieContainer.jsx";
+import MovieContainer from "./Components/MovieContainer.jsx";
 
 const App = () => {
 
