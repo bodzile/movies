@@ -1,6 +1,6 @@
 
 const MovieCard = ({Title, Plot, Poster}) => (
-    <div>
+    <div className="">
         <img src={Poster} alt=""/>
         <h3>{Title}</h3>
         <p>{Plot}</p>

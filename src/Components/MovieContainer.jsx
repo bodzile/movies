@@ -1,5 +1,5 @@
 import {useState, useEffect} from "react";
-import SearchMovieForm from "../Templates/Snippets/SearchMovieForm.jsx";
+import SearchMovieForm from "./SearchMovieForm.jsx";
 import axios from "axios";
 import MovieCard from "../Templates/Snippets/MovieCard.jsx";
 
