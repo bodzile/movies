@@ -23,10 +23,10 @@ const MovieContainer = () => {
 
 
     return (
-        <>
+        <div className="bg-gray-900 text-gray-300">
             <SearchMovieForm movie={movieName} setMovie={setMovieName} searchMovieByTitle={searchMovieByTitle} />
             <MovieCard {...movieData} />
-        </>
+        </div>
     )
 }
 

@@ -1,12 +1,17 @@
 
 import MovieContainer from "./Components/MovieContainer.jsx";
+import Navigation from "./Templates/Snippets/Navigation.jsx";
+import Footer from "./Templates/Snippets/Footer.jsx";
+import Search from "./Components/Search.jsx";
 
 const App = () => {
 
   return (
     <>
-        <h1>Poz</h1>
+        <Navigation />
+        <Search />
         <MovieContainer/>
+        <Footer/>
     </>
   )
 }
